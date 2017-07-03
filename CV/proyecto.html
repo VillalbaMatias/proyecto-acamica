@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>CV</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/presentacion.css" type="text/css" media="all">
+		<link rel="stylesheet" href="css/formatos.css" type="text/css" media="all">
+		<link rel="stylesheet" href="css/unslider.css" type="text/css" media="all">
+
+
+	</head>
+	
+
+	<body id="Cuerpo">
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/unslider.js"></script>
+		<script>		
+			jQuery(document).ready(function($) {			
+				$('.slider').unslider({				
+					arrows: false,				
+					autoplay: true			
+				});			
+			});  
+		</script>
+
+		<!--Hipervinculos e imagen-->
+		<div id="Navegacion">
+		<img src="imagenes/descarga.jpg">
+			<ul class="Lista">
+				<div><li id="Presentacion"><a href="#Datos">Presentacion</a></li></div>
+				<div><li id="Formacion"><a href="#Persona">Formacion</a></li></div>
+				<div><li id="Experiencia"><a href="#Exp">Experiencia</a></li></div>
+				<div><li id="Portfolio"><a href="#Port">Portfolio</a></li></div>
+			</ul>
+		</div>
+
+		
+		<!--Datos Personales-->
+		<div id="Contenido">
+			<div id="Datos">
+			
+				<h4>Quien soy</h4>
+				<hr>
+				<h1 id="Principal">Villalba Portunato, Matias Ezequiel</h1>
+
+				<h3 class="subsubtitulo">Front-End Jr.</h3>
+
+				<ul>
+					<li>Apellido: Villalba Portunato</li>
+					<li>Nombre: Matias Ezequiel</li>
+					<li>Direccion: Lugones 1962</li>
+					<li>Email: villalbaportunato@gmail.com</li>
+					<li>Telefono: 1127567021</li>
+				</ul>
+
+				<p class="destacado">Estoy cursando en la tecnicatura en informatica. Elegi esto por que queria aprender sobre esta carrera. Me gustan las materias que estoy viendo y un poco menos la que no son especificas de la carrera. Espero poder terminar la secundaria y seguir una ingenieria relacionado a la informatica</p>
+			</div>
+
+			<div id="Formacion">
+			<a name="Persona"></a>
+				<h3>Formacion</h3>
+				<hr>
+				<h4>Almirante Guillermo Brown- E.T.N°36</h4>
+				
+				<ul class="Lista">
+					<li>Dominio en lenguaje C, C++</li>
+					<li>Dominio Programacion Orientada a Objetos</li>
+					<li>Dominio en arduino</li>
+					<li>Creacion, administracion y gestion de base de datos</li>
+					<li>Gestion y administracion de redes</li>
+				</ul>
+
+			</div>
+
+			<div id="Experiencia">
+			<a name="Exp"></a>
+				<h3>Experiencia</h3>
+				<hr>
+				<p>Como todavia esto en secundaria, todavia no tengo experiencia laboral.Sin embargo me gustaria ingresar en alguna empresa relacionado a lo que yo estoy estudiando</p>
+			</div>
+
+			<div id="Portfolio">
+			<a name="Port"></a>
+				<h3>Portfolio (PROXIMAMENTE)</h3>
+				<hr>
+				<p>Feed</p>
+				<ul>
+
+				<div class="slider">
+					<ul>
+						<li><p>CV</p> <img src="imagenes/Cv.jpg"></li>
+						<li><p>Sitio de Noticias</p> <a target="_blank " href="SitioDeNoticias/recursos-sitionoticias/telam.html"> <img src="imagenes/Noticias.jpg"><a href="SitioDeNoticias/recursos-sitionoticias/telam.html"></a></li>
+
+						<li><p>Rompecabezas</p><a target="_blank " href="Rompecabezas/juego.html"><img src="imagenes/Rompe.jpg"></a></li>
+					</ul>
+				</div>
+				
+			</div>
+			
+	</body>
+
+	
+</html>

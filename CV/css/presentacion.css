@@ -1,0 +1,85 @@
+hr{
+	margin-right: 50px;
+	border-bottom-style: dashed #027CB5;
+	border-bottom-width: 1px;
+}
+#Navegacion{ 
+	width:20%;
+	margin-top: 20px;
+	float: left;
+	position: fixed;
+}
+
+#Contenido{
+	width: 75%;
+	float: right;
+	margin-top: 20px;
+}
+
+img{
+	width:85%;
+	height: 30%;
+	padding: 0px 0px 0px 40px;
+}
+
+#Contenido #Datos{
+	padding: 20px 10px 10px 40px;
+
+}
+
+#Contenido #Formacion{
+	padding: 10px 10px 10px 40px;
+	margin-top: 10px;
+	}
+
+#Contenido #Formacion p{
+	margin-right: 50px;
+
+}
+
+
+#Contenido #Experiencia{
+	padding: 10px 10px 10px 40px;
+	margin-top: 10px;
+}
+
+#Contenido #Portfolio{
+	padding: 10px 10px 10px 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	clear:both;
+}
+
+#Navegacion #Presentacion{
+	transition-property: transform background;
+	transition-duration: 0.3s;
+}
+
+#Navegacion #Presentacion:hover{
+	transform: translate(4%);
+}
+
+#Navegacion #Formacion{
+	transition-property: transform background;
+	transition-duration: 0.3s;
+}
+
+#Navegacion #Formacion:hover{
+	transform: translate(4%);
+}
+
+#Navegacion #Experiencia{
+	transition-property: transform background;
+	transition-duration: 0.3s;
+}
+#Navegacion #Experiencia:hover{
+	transform: translate(4%);
+}
+
+#Navegacion #Portfolio{
+	transition-property: transform background;
+	transition-duration: 0.3s;
+}
+#Navegacion #Portfolio:hover{
+	transform: translate(4%);
+}

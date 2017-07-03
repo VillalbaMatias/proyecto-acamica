@@ -1,0 +1,105 @@
+#Principal{
+	color: #398AD5;
+}
+p{
+	font-family: 'Inconsolata', monospace;
+
+}
+
+.Lista{
+	font-family: "Palatino", sans-serif;
+}
+
+h3{
+	color: #027CB5;
+}
+h4{
+		 
+	color: #027CB5;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#Contenido #Datos{
+
+	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 0%,#fdffff 0%,#e1ffff 0%,#e1ffff 0%,#ffffff 0%,#e6f8fd 0%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+
+
+}
+
+#Contenido #Formacion{
+
+	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 0%,#fdffff 0%,#e1ffff 0%,#e1ffff 0%,#ffffff 0%,#e6f8fd 0%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+
+}
+
+
+#Cuerpo {
+	
+	background: -webkit-linear-gradient(top, #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%);
+}
+
+#Contenido #Experiencia{
+
+	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 0%,#fdffff 0%,#e1ffff 0%,#e1ffff 0%,#ffffff 0%,#e6f8fd 0%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+}
+
+#Contenido #Portfolio{
+
+	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 0%,#fdffff 0%,#e1ffff 0%,#e1ffff 0%,#ffffff 0%,#e6f8fd 0%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+}
+
+li{
+	list-style:none; 
+
+}
+
+a:hover{
+	color:#027CB5;;
+
+}
+a:active{
+	color:#0E63ED
+}
+
+#Navegacion #Presentacion {
+	margin-top:10px;
+	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 0%,#fdffff 0%,#e1ffff 0%,#e1ffff 0%,#ffffff 0%,#e6f8fd 0%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+	border-radius: 2px;
+	font-family: cursive;
+	padding-left: 30px;
+
+}
+
+#Navegacion #Formacion{
+	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 0%,#fdffff 0%,#e1ffff 0%,#e1ffff 0%,#ffffff 0%,#e6f8fd 0%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+	margin-top: 10px;
+	border-radius: 2px;
+	font-family: cursive;
+	padding-left: 30px;
+
+}
+
+#Navegacion #Experiencia{
+	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 0%,#fdffff 0%,#e1ffff 0%,#e1ffff 0%,#ffffff 0%,#e6f8fd 0%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+	margin-top: 10px;
+	border-radius: 2px;
+	font-family: cursive;
+	padding-left: 30px;
+
+}
+
+#Navegacion #Portfolio{
+	background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 0%,#fdffff 0%,#e1ffff 0%,#e1ffff 0%,#ffffff 0%,#e6f8fd 0%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+	margin-top: 10px;
+	border-radius: 2px;
+	font-family: cursive;
+	padding-left: 30px;
+}
+
+#Contenido #Formacion p{
+	margin-right: 50px;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>CV</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="presentacion.css" type="text/css" media="all">
+
+	</head>
+	
+
+	<body>
+
+		<h4>Quien soy</h4>
+
+		<h1>Villalba Portunato, Matias Ezequiel</h1>
+
+		<h3>Front-End Jr.</h3>
+
+		<ul>
+			<li>Apellido: Villalba Portunato</li>
+			<li>Nombre: Matias Ezequiel</li>
+			<li>Direccion: Lugones 1962</li>
+			<li>Email: villalbaportunato@gmail.com</li>
+			<li>Telefono: 1127567021</li>
+		</ul>
+
+		<p>Descripcion propia</p>
+
+		<h3>Formacion</h3>
+		<hr>
+		<p>Estoy cursando en la tecnicatura en informatica. Elegi esto por que queria aprender sobre esta carrera. Me gustan las materias que estoy viendo y un poco menos la que no son especificas de la carrera. Espero poder terminar la secundaria y seguir Ingenieria en Sistemas u otra si es que me llama la atencion</p>
+
+		<p></p>
+
+	</body>
+
+
+
+</html>
